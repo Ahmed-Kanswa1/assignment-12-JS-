@@ -1,0 +1,201 @@
+:root{
+--primary-color:214,46,51 ,0.6;
+--secondary-color:#ccc;
+--header-color:#444;
+--text-color:#777;
+--btn-color:#D62E33;
+--hover-color:#8c181c;
+
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+
+/********************Home Section**************************/
+header{
+    background-image: linear-gradient(rgba(var(--primary-color)),rgba(var(--primary-color))), url(../Images/events-heavenly-header.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 97vh;
+}
+
+.sideBar{
+    z-index: 999;
+}
+.navBar{
+    font-size: 1.5625rem;
+    margin-left: 20px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+  
+}
+.bgblack{
+    background-color: #111111;
+    width: 200px;
+    overflow: hidden;
+}
+.navBar a{
+    color: #fff;
+   padding-block: 20px;
+    transition: color 0.57s;
+}
+.navBar a:hover{
+    color: var(--hover-color);
+}
+#icon{
+   
+    transform: translateY(50%);
+    font-size: 1.875rem;
+    cursor: pointer;
+    
+  
+}
+.closeBtn{
+    /* display: flex;
+    justify-content: flex-end; */
+    /* text-align: end; */
+    position: relative;
+    transform: translateX(150px);
+ 
+   
+}
+
+.head h1{
+    font-size: 3.75rem;
+}
+
+
+/********************Home Section**************************/
+
+
+/******************collapse********************/
+
+.singers {
+    
+    background-color:rgba(214,46,51 ,0.6) ;
+    width: 700px;
+}
+ #one{
+  
+padding: 20px;
+
+}
+h3{
+    padding: 10px;
+}
+.singers p{
+    background-color: var(--secondary-color);
+    padding: 10px;
+    
+    
+    
+}
+#pFour{
+    margin-bottom: -5px;
+}
+
+
+
+
+/******************collapse********************/
+
+
+/*****************joinUs******************/
+.joinUs{
+    background-image: linear-gradient(rgba(var(--primary-color)),rgba(var(--primary-color))),url(../Images/invitation-2508607__340.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    width: 100%;
+    height: 300px;
+    margin-top: 60px;
+}
+
+
+
+/*****************joinUs******************/
+/*****************timer******************/
+.timer{
+    width: 350px;
+    height: 200px;
+    border: 1px solid #fff;
+}
+.timer span{
+    color: #fff;
+    font-size: 50px;
+}
+.timerHolder{
+    display: flex;
+}
+.timeToparty{
+    color: #fff;
+    display: none;
+}
+
+
+
+
+/*****************timer******************/
+/*****************contact******************/
+.container p,.info p,i{
+    color: var(--text-color);
+}
+
+.social .socailIcon{
+    border: 1px solid var(--text-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 45px;
+    transition: background-color 0.2s;
+    cursor: pointer;
+}
+.social .socailIcon:hover{
+    background-color: var(--btn-color);
+    border: 1px solid var(--btn-color);
+   
+}
+.social .socailIcon:hover i{
+    color: #fff;
+}
+.social .socailIcon i{
+    
+}
+.line{
+    line-height: 2;
+}
+.icons p{
+    margin-bottom: 40px;
+    font-size: 17px;
+
+}
+.icons p i{
+    padding-right: 15px;
+    font-size: 18px;
+}
+.btn ,.form-control{
+    border-radius: 0 !important;
+}
+#countDown{
+    font-size: 20px;
+    margin-block: 20px;
+    color: var(--header-color);
+}
+.strong{
+    font-size: 20px;
+}
+
+
+
+
+
+
+/*****************contact******************/
